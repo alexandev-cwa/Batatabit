@@ -1,0 +1,159 @@
+@media (min-width: 611px) {
+  /*BREAKPOINT*/
+  header {
+    height: 480px;
+    position: relative;
+  }
+
+  header img {
+    width: 174px;
+    height: 28px;
+    margin: 0;
+  }
+  .header--title-container h1 {
+    max-width: 464px;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    margin: 0 auto;
+    margin-top: 44.47px;
+    margin-bottom: 32px;
+    position: static;
+  }
+
+  .header--title-container p {
+    max-width: 382px;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+
+  .header--title-container .header--button {
+    position: absolute;
+  }
+
+  .main-exchange-container--title h2 {
+    max-width: 466px;
+    margin: 0 auto;
+    line-height: 42px;
+    font-size: 4rem;
+    margin-bottom: 24px;
+  }
+
+  .main-exchange-container--title p {
+    max-width: 466px;
+    margin: 0 auto;
+    font-size: 2rem;
+    line-height: 24px;
+    margin-bottom: 48px;
+  }
+
+  .main-tables-container {
+    overflow-x: auto;
+    overscroll-behavior-x: none;
+    scroll-snap-type: none;
+    justify-content: center;
+  }
+  .main-currency-table,
+  .main-secondary-table {
+    margin: 0;
+    scroll-snap-align: none;
+  }
+
+  .main-currency-table:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .main-secondary-table:nth-last-child(1) {
+    margin-right: 0;
+  }
+
+  .currency-table--container,
+  .secondary-table--container {
+    width: 218px;
+    height: 159px;
+    margin: 0;
+  }
+
+  .currency-table--date,
+  .secondary-table--date {
+    margin-left: 6px;
+  }
+
+  .main-product-detail {
+    padding-bottom: 64px;
+  }
+
+  .product-detail--title h2 {
+    max-width: 466px;
+    margin: 0 auto;
+    font-size: 4rem;
+    line-height: 42px;
+    margin-top: 44px;
+    margin-bottom: 24px;
+  }
+
+  .product-detail--title p {
+    max-width: 466px;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .product-cards--container-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .product-cards--container {
+    max-width: 310px;
+    margin: 10px;
+    height: auto;
+  }
+
+  .product-detail--card {
+    height: 100%;
+  }
+
+  .main-plants-container {
+  }
+
+  .plants--title h2 {
+    font-size: 4rem;
+    line-height: 42px;
+    max-width: 466px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .plants--title p {
+    font-size: 2rem;
+    line-height: 24px;
+    max-width: 466px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+
+  .plants-container--slider {
+    overflow-x: auto;
+    overscroll-behavior-x: none;
+    scroll-snap-type: none;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .plants-container-card {
+    margin: 8px;
+    scroll-snap-align: none;
+    max-width: 210px;
+  }
+
+  .plants-container-card:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .plants-container-card:nth-last-child(1) {
+    margin-right: 0;
+  }
+}
